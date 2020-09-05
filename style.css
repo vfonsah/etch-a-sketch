@@ -5,18 +5,18 @@
 
 .container {
     display: grid;
-    gap: .1em;
+    /* gap: .1em; */
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
 
 .grid-cell{
     padding: 1em;
-    border: 1px solid #dddddd;
+    border: 1px solid white;
     text-align: center;
 }
-
+/* 
 .pixelate {
     background-color: black;
     color: azure;
-}
+} */
